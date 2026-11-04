@@ -52,7 +52,9 @@ rl.on("line", line => {
     process.stdout.write(JSON.stringify(ok(id, {
       protocolVersion: "2025-03-26",
       capabilities: { tools: {} },
-      serverInfo: { name: "cardprint", version: "0.1.0" }
+      serverInfo: { name: "cardprint", title: "Cardprint", version: "0.1.0",
+        description: "Pokemon TCG Standard rotation-risk screener. screen_deck "
+          + "screens set marks for legality and scores seeded 0-100 rotation risk." }
     })) + "\n");
     return;
   }
