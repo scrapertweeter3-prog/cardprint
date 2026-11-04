@@ -1,0 +1,31 @@
+{
+  "name": "cardprint",
+  "version": "0.1.0",
+  "description": "Cardprint MCP tool: screen_deck screens Pokemon TCG set marks for Standard-format legality and scores each card's rotation risk on a seeded 0-100 scale.",
+  "main": "server.js",
+  "homepage": "https://www.poketdev.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scrapertweeter3-prog/cardprint"
+  },
+  "author": {
+    "name": "James Verlander",
+    "url": "https://www.poketdev.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "pokemon-tcg",
+    "standard-format",
+    "rotation",
+    "screening",
+    "composio"
+  ],
+  "scripts": {
+    "start": "node server.js",
+    "stdio": "node stdio.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
