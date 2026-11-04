@@ -46,3 +46,8 @@ Regulation marks are data, not logic: the list lives in one array and rotates
 each season. The risk score is seeded per set, so it is stable across runs and
 machines but is a modeling artifact, not a prediction. Legality screening is
 exact for the marks on file.
+
+## Security
+
+Found a security issue? Open a GitHub issue on this repository and mark it
+clearly as a security report; it gets triaged before feature work.
